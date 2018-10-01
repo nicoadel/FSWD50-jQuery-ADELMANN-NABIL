@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex1</title>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+		<div>
+			<p id="intro"><a href="#">1</a> </p>
+			<p id="intro"><a href="#">2</a> </p>
+			<p id="intro">3</p>
+		</div>
+		<div>
+			<article>
+				<p class="note">4</p>
+				<p class="note">5</p>
+				<p class="note">6</p>
+			</article>
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+					//$("*").css("background","yellow");
+					//$("p").css("background","yellow");
+					//$("p#intro").css("background","yellow");
+					//$(".note").css("background","yellow");
+					//$("article p").css("background","yellow");
+					//$("p:last-child").css("background","yellow");
+					//$("p:first-child").css("background","yellow");
+					$("p [href]").css("background","yellow");
+			})
+		</script>
+</body>
+</html>
